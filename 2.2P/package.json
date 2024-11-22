@@ -1,0 +1,28 @@
+{
+  "name": "math-api",
+  "version": "1.0.0",
+  "description": "Basic API(s) for math",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint --fix ."
+  },
+  "author": "Dhian",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "express-winston": "^4.2.0",
+    "http-status": "^1.7.4",
+    "joi": "^17.12.3",
+    "lodash": "^4.17.21",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
