@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Todo</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="create-edit-title" class="center-align">Create Todo</h1>
+    <form id="create-todo-form">
+      <div class="input-field">
+        <input id="task-name" type="text" required>
+        <label for="task-name">Task Name</label>
+      </div>
+      <div class="input-field">
+        <textarea id="task-desc" class="materialize-textarea" required></textarea>
+        <label for="task-desc">Description</label>
+      </div>
+      <button id="create-edit-button" class="btn waves-effect waves-light" type="submit">Create Todo</button>
+      <a href="/" class="btn-flat">Cancel</a>
+    </form>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="/js/scripts.js"></script>
+</body>
+</html>
