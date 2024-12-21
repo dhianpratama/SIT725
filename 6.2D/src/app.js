@@ -49,3 +49,6 @@ const PORT = config.port;
 app.listen(PORT, function () {
   console.log(`Server is listening on port ${PORT}`);
 });
+
+
+module.exports = app; // Export the app for testing
